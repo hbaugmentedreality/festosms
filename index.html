@@ -121,7 +121,7 @@
       const modelViewer = document.querySelector("model-viewer");
     
       window.switchSrc = (element, name) => {
-        const base = "/assets/Models/" + name;
+        const base = "assets/Models/" + name;
         modelViewer.src = base + ".glb";
         modelViewer.iosSrc = base + ".usdz"
         modelViewer.alt = name;
