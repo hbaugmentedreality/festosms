@@ -130,6 +130,19 @@ footer {
           animation: circle 4s linear infinite;
         }
 
+        model-viewer > #ar-failure {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 175px;
+            display: none;
+          }
+
+          model-viewer[ar-tracking="not-tracking"] > #ar-failure {
+            display: block;
+          }
+
+
         .slider {
           width: 100%;
           text-align: center;
